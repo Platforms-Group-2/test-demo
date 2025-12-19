@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-demo
+  description: A new component
+spec:
+  type: service
+  owner: user:default/guest
+  lifecycle: experimental
